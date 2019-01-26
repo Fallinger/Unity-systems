@@ -5,13 +5,13 @@ using UnityEngine.EventSystems;
 public class DeformationMesh : MonoBehaviour
 {
     [Header("UI Элементы")]
-    [Tooltip("Переключатель деформации вверх ")] public Toggle UpDeformToggle;
-    [Tooltip("Переключатель деформации вниз ")]  public Toggle DownDeformToggle;
-    [Tooltip("Переключатель зелёного цвета ")]   public Toggle GreenToggle;
-    [Tooltip("Переключатель жёлтого цвета ")]    public Toggle YellowToggle;
-    [Tooltip("Переключатель синего цвета ")]     public Toggle BlueToggle;
-    [Tooltip("Ползунок радиуса ")]               public Slider RadiusSlider;
-    [Tooltip("Ползунок силы ")]                  public Slider PowerSlider;
+    public Toggle UpDeformToggle;
+    public Toggle DownDeformToggle;
+    public Toggle GreenToggle;
+    public Toggle YellowToggle;
+    public Toggle BlueToggle;
+    public Slider RadiusSlider;
+    public Slider PowerSlider;
 
     // Приватные поля
     Color[] colors;
